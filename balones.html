@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Golazo - Botines</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+
+  <!--varra de navegacion-->
+  <header class="encabezado">
+    <h1>⚽ Tienda Golazo</h1>
+    <nav class="menu">
+      <a href="index.html">Camisetas</a>
+      <a href="balones.html">Balones</a>
+      <a href="botines.html" class="activo">Botines</a>
+    </nav>
+  </header>
+
+  <!--contenido principal: botines-->
+  <main class="contenedor">
+    <h2>Botines de Fútbol</h2>
+    <p class="subtitulo">Comodidad y agarre para cada tipo de terreno</p>
+
+    <section class="lista-productos">
+      <!--producto1-->
+      <div class="tarjeta">
+        <img src="img/botin1.jpg" alt="Botines Velocidad FG">
+        <h3>Botines Velocidad FG</h3>
+        <p class="precio">$75.00</p>
+        <div class="detalles">
+          <p>Tallas: 38 a 43</p>
+          <p>Tacos ligeros para césped natural</p>
+        </div>
+        <button class="boton-detalles" onclick="mostrarDetalles(this)">Ver detalles</button>
+      </div>
+
+      <!-- producto2-->
+      <div class="tarjeta">
+        <img src="img/botin2.jpg" alt="Botines Control Clásico">
+        <h3>Botines Control Clásico</h3>
+        <p class="precio">$68.00</p>
+        <div class="detalles">
+          <p>Tallas: 39 a 44</p>
+          <p>Material suave para mejor toque</p>
+        </div>
+        <button class="boton-detalles" onclick="mostrarDetalles(this)">Ver detalles</button>
+      </div>
+
+      <!-- producto3-->
+      <div class="tarjeta">
+        <img src="img/botin3.jpg" alt="Botines Sintético TF">
+        <h3>Botines Sintético TF</h3>
+        <p class="precio">$60.00</p>
+        <div class="detalles">
+          <p>Tallas: 37 a 42</p>
+          <p>Suela multitaco para cancha sintética</p>
+        </div>
+        <button class="boton-detalles" onclick="mostrarDetalles(this)">Ver detalles</button>
+      </div>
+
+      <!--producto4-->
+      <div class="tarjeta">
+        <img src="img/botin4.jpg" alt="Botines Fútbol Sala IC">
+        <h3>Botines Fútbol Sala IC</h3>
+        <p class="precio">$58.00</p>
+        <div class="detalles">
+          <p>Tallas: 38 a 43</p>
+          <p>Suela plana antideslizante</p>
+        </div>
+        <button class="boton-detalles" onclick="mostrarDetalles(this)">Ver detalles</button>
+      </div>
+
+      <!--producto5-->
+      <div class="tarjeta">
+        <img src="img/botin5.jpg" alt="Botines Tobillera Alta">
+        <h3>Botines Tobillera Alta</h3>
+        <p class="precio">$85.00</p>
+        <div class="detalles">
+          <p>Tallas: 39 a 43</p>
+          <p>Ajuste tipo calcetín para mayor soporte</p>
+        </div>
+        <button class="boton-detalles" onclick="mostrarDetalles(this)">Ver detalles</button>
+      </div>
+    </section>
+  </main>
+
+  <!--pie de pagina-->
+  <footer class="pie-pagina">
+    <div class="pie-contenido">
+      <div>
+        <h3>⚽ Tienda Golazo</h3>
+        <p>Todo lo que necesitas para jugar al fútbol.</p>
+      </div>
+      <div>
+        <h4>Secciones</h4>
+        <p><a href="index.html">Camisetas</a></p>
+        <p><a href="balones.html">Balones</a></p>
+        <p><a href="botines.html">Botines</a></p>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <p>Av. del Estadio 123</p>
+        <p>Tel: 099-123-4567</p>
+      </div>
+    </div>
+    <p class="derechos">© 2026 Tienda Golazo - Todos los derechos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
