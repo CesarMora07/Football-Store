@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Golazo - Camisetas</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+
+  <!--barra denavegacion-->
+  <header class="encabezado">
+    <h1>⚽ Tienda Golazo</h1>
+    <nav class="menu">
+      <a href="index.html" class="activo">Camisetas</a>
+      <a href="balones.html">Balones</a>
+      <a href="botines.html">Botines</a>
+    </nav>
+  </header>
+
+  <!--contenido principal:camisetas-->
+  <main class="contenedor">
+    <h2>Camisetas de Fútbol</h2>
+    <p class="subtitulo">Elige tu equipación favorita para la cancha</p>
+
+    <section class="lista-productos">
+      <!--producto1-->
+      <div class="tarjeta">
+        <img src="img/camiseta1.jpg" alt="Camiseta Selección Local">
+        <h3>Camiseta Selección Local</h3>
+        <p class="precio">$45.00</p>
+        <div class="detalles">
+          <p>Tallas: S, M, L, XL</p>
+          <p>Tela fresca y transpirable</p>
+        </div>
+        <button class="boton-detalles" onclick="mostrarDetalles(this)">Ver detalles</button>
+      </div>
+
+      <!--producto2-->
+      <div class="tarjeta">
+        <img src="img/camiseta2.jpg" alt="Camiseta Club Clásica">
+        <h3>Camiseta Club Clásica</h3>
+        <p class="precio">$50.00</p>
+        <div class="detalles">
+          <p>Tallas: M, L, XL</p>
+          <p>Escudo bordado de alta calidad</p>
+        </div>
+        <button class="boton-detalles" onclick="mostrarDetalles(this)">Ver detalles</button>
+      </div>
+
+      <!--producto3-->
+      <div class="tarjeta">
+        <img src="img/camiseta3.jpg" alt="Camiseta Entrenamiento">
+        <h3>Camiseta Entrenamiento</h3>
+        <p class="precio">$30.00</p>
+        <div class="detalles">
+          <p>Tallas: S, M, L</p>
+          <p>Ligera y de secado rápido</p>
+        </div>
+        <button class="boton-detalles" onclick="mostrarDetalles(this)">Ver detalles</button>
+      </div>
+
+      <!--producto4-->
+      <div class="tarjeta">
+        <img src="img/camiseta4.jpg" alt="Camiseta Visitante">
+        <h3>Camiseta Visitante</h3>
+        <p class="precio">$45.00</p>
+        <div class="detalles">
+          <p>Tallas: S, M, L, XL</p>
+          <p>Diseño moderno con cuello en V</p>
+        </div>
+        <button class="boton-detalles" onclick="mostrarDetalles(this)">Ver detalles</button>
+      </div>
+
+      <!--producto5-->
+      <div class="tarjeta">
+        <img src="img/camiseta5.jpg" alt="Camiseta Arquero">
+        <h3>Camiseta Arquero</h3>
+        <p class="precio">$52.00</p>
+        <div class="detalles">
+          <p>Tallas: M, L, XL</p>
+          <p>Manga larga con protección en codos</p>
+        </div>
+        <button class="boton-detalles" onclick="mostrarDetalles(this)">Ver detalles</button>
+      </div>
+    </section>
+  </main>
+
+  <!--pie de pagina-->
+  <footer class="pie-pagina">
+    <div class="pie-contenido">
+      <div>
+        <h3>⚽ Tienda Golazo</h3>
+        <p>Todo lo que necesitas para jugar al fútbol.</p>
+      </div>
+      <div>
+        <h4>Secciones</h4>
+        <p><a href="index.html">Camisetas</a></p>
+        <p><a href="balones.html">Balones</a></p>
+        <p><a href="botines.html">Botines</a></p>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <p>Av. del Estadio 123</p>
+        <p>Tel: 099-123-4567</p>
+      </div>
+    </div>
+    <p class="derechos">© 2026 Tienda Golazo - Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
